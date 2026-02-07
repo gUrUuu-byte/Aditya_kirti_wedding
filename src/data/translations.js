@@ -100,57 +100,10 @@ export const translations = {
         mittal_family: "Entire Mittal Family",
         grandfather_name: "Surendra Mohan Mittal",
 
-        // Wardrobe Planner
+        // Dress Code
         wardrobe_section: {
-            title: "Wardrobe Planner",
-            subtitle: "Style Guide for the Royal Celebration",
-            categories: [
-                {
-                    id: "haldi",
-                    title: "Haldi Ceremony",
-                    dress_code: "Pastel Elegance",
-                    male: "Pastel Hued Kurta Pajama",
-                    female: "Graceful Pastel Lehengas / Chiffon Sarees",
-                    colors: ["#FDEDEC", "#E8F8F5", "#FEF9E7"], // Pastels
-                    icon: "🌼"
-                },
-                {
-                    id: "mayra",
-                    title: "Mayra / Bhaat",
-                    dress_code: "Traditional Vibrance",
-                    male: "Kurta Pajama (Color Coordinated)",
-                    female: "Traditional Bandhej / Leheriya Sarees",
-                    colors: ["#F4D03F", "#E67E22", "#FFFFFF"], // Brights
-                    icon: "🎁"
-                },
-                {
-                    id: "sangeet",
-                    title: "Ladies Sangeet",
-                    dress_code: "Glamorous Nights",
-                    male: "Dark Tuxedo / Indo-Western Pattern",
-                    female: "Sparkling Gowns / Designer Sequined Sarees",
-                    colors: ["#2C3E50", "#4A235A", "#17202A"], // Darks
-                    icon: "💃"
-                },
-                {
-                    id: "baarat",
-                    title: "Baarat Procession",
-                    dress_code: "Royal Light Hues",
-                    male: "Sherwani / Indo-Western (Light Tones)",
-                    female: "Elegant Light Silk / Tissue Sarees",
-                    colors: ["#FDFEFE", "#F4ECF7", "#F0B27A"], // Lights
-                    icon: "🥁"
-                },
-                {
-                    id: "reception",
-                    title: "Reception",
-                    dress_code: "Formal Sophistication",
-                    male: "Classic Jodhpuri / Dark Suit",
-                    female: "Evening Gowns / Rich Kanjeevaram Sarees",
-                    colors: ["#1B2631", "#17202A", "#641E16"], // Dark Formal
-                    icon: "🥂"
-                }
-            ]
+            title: "Dress Code",
+            quote: "We kindly request you to grace the occasion in light-colored attire. Traditional Kurtas for men and Sarees for women are preferable to enhance the royal vibe."
         },
 
         // Venue
@@ -312,57 +265,10 @@ export const translations = {
         mittal_family: "समस्त मित्तल परिवार",
         grandfather_name: "सुरेंद्र मोहन मित्तल",
 
-        // Wardrobe Planner
+        // Dress Code
         wardrobe_section: {
-            title: "परिधान योजना",
-            subtitle: "शाही समारोह के लिए शैली गाइड",
-            categories: [
-                {
-                    id: "haldi",
-                    title: "हल्दी समारोह",
-                    dress_code: "पेस्टल रूप",
-                    male: "पेस्टल रंग का कुर्ता पायजामा",
-                    female: "ग्रेसफुल पेस्टल लहंगा / शिफॉन साड़ी",
-                    colors: ["#FDEDEC", "#E8F8F5", "#FEF9E7"],
-                    icon: "🌼"
-                },
-                {
-                    id: "mayra",
-                    title: "मायरा / भात",
-                    dress_code: "पारंपरिक उत्साह",
-                    male: "कुर्ता पायजामा (रंग समन्वित)",
-                    female: "पारंपरिक बंधेज / लहरिया साड़ी",
-                    colors: ["#F4D03F", "#E67E22", "#FFFFFF"],
-                    icon: "🎁"
-                },
-                {
-                    id: "sangeet",
-                    title: "महिला संगीत",
-                    dress_code: "ग्लैमरस रातें",
-                    male: "डार्क टक्सीडो / इंडो-वेस्टर्न",
-                    female: "चमकदार गाउन / डिजाइनर साड़ी",
-                    colors: ["#2C3E50", "#4A235A", "#17202A"],
-                    icon: "💃"
-                },
-                {
-                    id: "baarat",
-                    title: "बारात",
-                    dress_code: "शाही हल्के रंग",
-                    male: "शेरवानी / इंडो-वेस्टर्न (हल्के रंग)",
-                    female: "सुरुचिपूर्ण लाइट सिल्क / टिश्यू साड़ी",
-                    colors: ["#FDFEFE", "#F4ECF7", "#F0B27A"],
-                    icon: "🥁"
-                },
-                {
-                    id: "reception",
-                    title: "आशीर्वाद समारोह",
-                    dress_code: "औपचारिक",
-                    male: "क्लासिक जोधपुरी / डार्क सूट",
-                    female: "इवनिंग गाउन / कांजीवरम साड़ी",
-                    colors: ["#1B2631", "#17202A", "#641E16"],
-                    icon: "🥂"
-                }
-            ]
+            title: "पहनावा (Dress Code)",
+            quote: "आपसे विनम्र अनुरोध है कि कृपया हल्के रंग के परिधान धारण करें। पुरुषों के लिए कुर्ता और महिलाओं के लिए साड़ी पहनना इस शाही उत्सव की शोभा बढ़ाएगा।"
         },
 
         // Venue

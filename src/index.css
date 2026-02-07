@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Rozha+One&family=Cinzel+Decorative:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    /* scroll-behavior: smooth; - Removed to allow instant jumps */
+  }
+
+  body {
+    @apply bg-royal-cream text-royal-charcoal font-sans antialiased overflow-x-hidden;
+    background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading text-indian-maroon;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  * {
+    cursor: none !important;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-royal-stone;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-indian-saffron rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-indian-maroon;
+}

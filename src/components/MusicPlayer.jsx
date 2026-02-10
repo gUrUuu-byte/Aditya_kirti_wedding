@@ -31,6 +31,26 @@ const MusicPlayer = () => {
 
     }, [hasInteracted]);
 
+    useEffect(() => {
+        const handleVisibilityChange = () => {
+            const audio = audioRef.current;
+            if (!audio) return;
+
+            if (document.hidden) {
+                // Pause when backgrounded/tab switched
+                audio.pause();
+            } else {
+                // Resume only if the user had it playing
+                if (isPlaying) {
+                    audio.play().catch(e => console.log("Resume failed:", e));
+                }
+            }
+        };
+
+        document.addEventListener("visibilitychange", handleVisibilityChange);
+        return () => document.removeEventListener("visibilitychange", handleVisibilityChange);
+    }, [isPlaying]);
+
     const togglePlay = () => {
         const audio = audioRef.current;
         if (isPlaying) {

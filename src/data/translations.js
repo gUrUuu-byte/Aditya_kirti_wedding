@@ -103,7 +103,7 @@ export const translations = {
         // Dress Code
         wardrobe_section: {
             title: "Dress Code",
-            quote: "We kindly request you to grace the occasion in light-colored attire. Traditional Kurtas for men and Sarees for women are preferable to enhance the royal vibe."
+            quote: "To enhance the beauty of our celebration, we lovingly suggest light-colored attire for the day ceremonies and darker shades for the evening. Traditional Kurtas for men and Sarees for women would feel truly special."
         },
 
         // Venue
@@ -268,7 +268,7 @@ export const translations = {
         // Dress Code
         wardrobe_section: {
             title: "पहनावा (Dress Code)",
-            quote: "आपसे विनम्र अनुरोध है कि कृपया हल्के रंग के परिधान धारण करें। पुरुषों के लिए कुर्ता और महिलाओं के लिए साड़ी पहनना इस शाही उत्सव की शोभा बढ़ाएगा।"
+            quote: "समारोह की शोभा बढ़ाने के लिए, हम स्नेहपूर्वक दिन के कार्यक्रमों में हल्के रंग और शाम के लिए गहरे रंगों का सुझाव देते हैं। पुरुषों के लिए पारंपरिक कुर्ता और महिलाओं के लिए साड़ी इस अवसर को और भी खास बना देंगे।"
         },
 
         // Venue

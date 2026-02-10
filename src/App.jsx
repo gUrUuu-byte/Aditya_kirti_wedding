@@ -7,6 +7,7 @@ import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import LanguageSelector from './components/LanguageSelector';
 import FloatingLanguageSwitcher from './components/FloatingLanguageSwitcher';
 import CustomCursor from './components/CustomCursor';
+import MusicPlayer from './components/MusicPlayer';
 
 const AppContent = () => {
     const { language } = useLanguage();
@@ -33,6 +34,7 @@ function App() {
     return (
         <LanguageProvider>
             <CustomCursor />
+            <MusicPlayer />
             <AppContent />
         </LanguageProvider>
     );
